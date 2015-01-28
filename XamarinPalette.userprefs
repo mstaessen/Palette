@@ -1,0 +1,9 @@
+﻿<Properties StartupItem="XamarinPalette\XamarinPalette.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.007aca8a93464951" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinPalette MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

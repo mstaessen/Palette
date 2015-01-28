@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_palette_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_margin="@dimen/activity_horizontal_margin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/text_palette_id"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true">
+            <View
+                android:id="@+id/palette_vibrant"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/palette_vibrant_dark"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/palette_vibrant_light"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/palette_muted"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/palette_muted_dark"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+            <View
+                android:id="@+id/palette_muted_light"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
